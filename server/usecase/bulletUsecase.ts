@@ -50,4 +50,3 @@ const getBulletList = async () => {
     bulletUsecase.move(bullet.bulletId);
   }
 };
-setInterval(getBulletList, 100);
